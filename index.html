@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <title>Tempo de Cópula</title>
+</head>
+<body>
+    <main>
+        <h1><span>Tempo</span> de cópula</h1>
+        <div class="display">
+            <span class="printTimer">Resultado</span>
+
+        </div>
+        <form id="formulario" autocomplete="off">
+            
+            <section class="section-timer">
+                <div class="tempoInicial timer">
+                    <label for="tempoInicial">
+                        Tempo <span>Inicial</span> 
+                    </label>
+                    <input type="time" name="tempoInicial" id="tempoInicial">
+                </div>
+                <div class="tempoFinal timer">
+                    <label for="tempoFinal">
+                        Tempo <span>Final</span> 
+                    </label>
+                    <input type="time" name="tempoFinal" id="tempoFinal">
+                </div>
+
+
+            </section>
+        
+            <button class="btn" type="submit">Calcular</button>
+        </form>
+<p class="autor"><a target="_blank" href="https://www.linkedin.com/in/abnersantoss/">{ Por Abner Santos }</a></p>
+    </main>
+    
+</body>
+<script src="./calculo.js"></script>
+</html>

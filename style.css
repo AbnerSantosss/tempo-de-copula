@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --background-back: #3E3E3E;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--background-back);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 1.0rem;
+    align-items: center;
+    display: flex;
+}
+    
+main{
+    background-color: #281935;
+    width: 41.4rem;
+    height: 70.0rem;
+    padding: 1.5rem;
+    margin: 2.5rem auto;
+    border-radius: 10px;
+    border: 2px solid #3F2C4F;
+    box-shadow: 0px 0px 14px -1px rgba(137, 255, 90, 0.57);
+}
+    
+
+
+main h1{
+    color: #F6911E;
+    font-family: cursive;
+    font-size: 3.9rem;
+}
+main h1 span{
+    color: #5FB63C;
+}
+
+main h1{
+    text-align: center;
+}
+
+.display {
+    width: 95%;
+    height: 7.5rem;
+    margin: 6.7rem auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3F2C4F;
+    border: 2px solid #3F2C4F;
+    box-shadow: 0px 0px 14px -1px rgba(137, 255, 90, 0.57);
+    border-radius: 1.5rem;
+}
+    
+    
+    
+
+.display span{
+    font-size: 1.6rem;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+    
+}
+
+
+    
+.section-timer{
+    display: flex;
+    justify-content: space-around;
+    gap: 2.0rem;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+   
+ 
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.timer label{
+    font-size: 16px;
+    color: #A2A2A2;
+}
+
+.timer input {
+    background: #3F2C4F;
+    border: 2px solid #3F2C4F;
+    box-shadow: 0px 0px 14px -1px rgba(137, 255, 90, 0.57);
+    border-radius: 1.5rem;
+    color: #FFFFFF;
+    height: 6.3rem;
+    width: 12.9rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.tempoFinal label span{
+    color: #F6911E;
+}
+
+.tempoInicial label span{
+    color: #5FB63C;
+}
+
+
+.btn{
+    width: 22.7rem;
+    height: 6.1rem;
+    margin: 9.5rem auto;
+    cursor: pointer;
+    border-radius: 9px;
+    border: none;
+    background-color: #5FB63C;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 3.0rem;
+    
+
+}
+
+.btn:hover{
+    background-color: #6d6d6d;
+}
+
+.autor{
+    text-align: center;
+    margin-top: 1.0rem;
+    
+}
+.autor a{
+    text-decoration: none;
+    color: #A2A2A2;
+}
+
+    
+    
+    
+    
+    
